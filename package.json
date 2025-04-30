@@ -8,15 +8,15 @@
     "test:watch": "jest --watchAll --verbose=false"
   },
   "devDependencies": {
-    "jest": "^29.2.2",
-    "jest-html-reporter": "^3.7.0",
+    "jest": "^29.7.0",
+    "jest-html-reporter": "^3.10.2",
     "jest-junit": "^14.0.1"
   },
   "jest": {
     "reporters": [
       "default",
       [
-        "./node_modules/jest-html-reporter",
+        "jest-html-reporter",
         {
           "pageTitle": "Test Solution",
           "outputPath": "test-results.html",

@@ -72,8 +72,7 @@ You have the following indications from the frontend responsible:
 
 - It is mandatory to implement all loops in ES6 (using map, reduce, filter and sort to manipulate arrays).
 
-- As at the moment we don't consume data from a server using an API, we will work with data from the src/data.js archive. For the moment we will implement the logic using
-an array of information about 250 movies.
+- As at the moment we don't consume data from a server using an API, we will work with data from the src/data.js archive. For the moment we will implement the logic using an array of information about 250 movies.
 
 - The implementation is about processing this array of movies, to display it as requested in each exercise.
 
